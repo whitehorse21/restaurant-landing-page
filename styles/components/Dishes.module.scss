@@ -1,0 +1,10 @@
+.dishes {
+  transition: var(--transition);
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+    transition: var(--transition);
+  }
+}
